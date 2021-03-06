@@ -1,1 +1,4 @@
 twitter.com##div[aria-label="タイムライン: トレンド"]
+twitter.com##[aria-label^="タイムライン: "] > div > :not(:has(article)):has(~ div:has(h2:has-text(/おすすめトピック|おすすめユーザー/)))
+twitter.com##[aria-label^="タイムライン: "] > div > :has(h2:has-text(/おすすめトピック|おすすめユーザー/))
+twitter.com##[aria-label^="タイムライン: "] > div > :has(h2:has-text(/おすすめトピック|おすすめユーザー/)) ~ div:not(:has(article))
