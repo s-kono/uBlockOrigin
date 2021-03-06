@@ -1,0 +1,1 @@
+twitter.com##div[aria-label="タイムライン: トレンド"]
