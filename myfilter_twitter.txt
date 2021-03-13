@@ -14,3 +14,5 @@ twitter.com##div[class="css-1dbjc4n r-kemksi r-184en5c"]:has(div:has-text(いま
 twitter.com##a:has(> div > span:has-text(まず記事を読んでみませんか？))
 twitter.com##div:has(> nav[aria-label="フッター"])
 twitter.com##div:has(> div > div > div > div > div > div > div > h2 > div > div > span > span:has-text(メッセージ))
+!
+www.amazon.co.jp##div:has(> div > div > div > div[class="f1gqgsum"] > div:has-text(次の作品))
