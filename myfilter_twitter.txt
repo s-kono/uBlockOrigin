@@ -18,3 +18,5 @@ twitter.com##div:has(> div > div > div > div > div > div > div > h2 > div > div 
 www.amazon.co.jp##div:has(> div > div > div > div[class="f1gqgsum"] > div:has-text(次の作品))
 !
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="キューに追加"]
+youtube.com##ytd-video-renderer:has(> div > div > div > ytd-channel-name > div > div > yt-formatted-string > a:has-text(/(トモダチTV|.*武田邦彦.*)/))
+youtube.com##div:has(> div > a > div > ytd-channel-name > div > div >                      yt-formatted-string:has-text(/(トモダチTV|.*武田邦彦.*)/))
