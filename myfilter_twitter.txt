@@ -16,8 +16,15 @@ twitter.com##div:has(> nav[aria-label="フッター"])
 twitter.com##div:has(> div > div > div > div > div > div > div > h2 > div > div > span > span:has-text(メッセージ))
 !
 www.amazon.co.jp##div:has(> div > div > div > div[class="f1gqgsum"] > div:has-text(次の作品))
+www.amazon.co.jp##div:has(> div > div > div > div[class="f1gqgsum"] > div:has-text(Next up))
 !
 youtube.com##ytd-thumbnail-overlay-toggle-button-renderer[aria-label="キューに追加"]
+youtube.com##ytd-live-chat-frame:has(> ytd-message-renderer > yt-formatted-string:has-text(このプレミア公開では、チャットのリプレイは無効です。))
+youtube.com##ytd-compact-radio-renderer:has(> div > ytd-thumbnail > a > div > ytd-thumbnail-overlay-side-panel-renderer > yt-formatted-string:has-text(ミックスリスト))
+!
 youtube.com##ytd-video-renderer:has(> div > div > div > ytd-channel-name > div > div > yt-formatted-string > a:has-text(/(トモダチTV|武田邦彦|DHCテレビ)/))
 youtube.com##div:has(> div > a > div > ytd-channel-name > div > div > yt-formatted-string:has-text(/(トモダチTV|武田邦彦|DHCテレビ)/))
 youtube.com##ytd-compact-video-renderer:has(> div > div > div > a > div > ytd-video-meta-block > div > div > ytd-channel-name > div > div > yt-formatted-string:has-text(/(トモダチTV|武田邦彦|DHCテレビ)/))
+!
+! for /feed/subscriptions
+youtube.com##ytd-grid-video-renderer:has(> div > div > div > h3 > a:has-text(/(表示タイトルに含まれる文字列1|表示タイトルに含まれる文字列2)/))
